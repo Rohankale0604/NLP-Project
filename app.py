@@ -86,7 +86,7 @@ By leveraging NLP algorithms, we intend to extract text from the sample resumes 
 if check == 'Team':
     st.title('My TEAM',)
     st.markdown('<style>h1{color: purple;}</style>', unsafe_allow_html=True)
-    image = Image.open(r"C:\Users\Rohan\OneDrive\Desktop\new\benefits-of-team-building.jpeg")
+    image = Image.open(r"https://github.com/Rohankale0604/NLP-Project/blob/main/benefits-of-team-building.jpeg")
 
     # Display the image with a caption in Streamlit
     st.image(image)
