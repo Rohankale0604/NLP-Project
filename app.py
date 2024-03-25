@@ -6,8 +6,6 @@ import pdfplumber
 import pandas as pd
 import streamlit as st
 from PIL import Image
-import en_core_web_sm
-nlp = en_core_web_sm.load()
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
