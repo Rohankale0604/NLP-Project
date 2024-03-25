@@ -1,14 +1,4 @@
 # IMPORT LIBRARIES
-import re
-import PyPDF2
-import docx2txt
-import pdfplumber
-import pandas as pd
-import streamlit as st
-from PIL import Image
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import RegexpTokenizer
 import streamlit as st
 import os
 import re
