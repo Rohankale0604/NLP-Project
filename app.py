@@ -109,7 +109,7 @@ if check == 'ML - Modeling':
     
     # Load the pre-trained model, TF-IDF Vectorizer, and LabelEncoder
     model = load(open('https://github.com/Rohankale0604/NLP-Project/blob/main/model.pkl', 'rb'))
-    vectorizer = load(open('vectorizer.pkl', 'rb'))
+    vectorizer = load(open('https://github.com/Rohankale0604/NLP-Project/blob/main/vectorizer.pkl', 'rb'))
     encoder = load(open('https://github.com/Rohankale0604/NLP-Project/blob/main/encoder.pkl', 'rb'))
     
     # Function to preprocess a resume
