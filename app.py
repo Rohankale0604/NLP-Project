@@ -28,7 +28,7 @@ if check == 'About':
     # st.image(r'F:\NLP Intenship project\resume classification\resume.jpg',width=450)
     # st.write('-------')
     # Open the image from the specified path
-    image = Image.open(r'"C:\Users\Rohan\OneDrive\Desktop\new\an-introduction-to-natural-language-processing-with-python-for-seos-5f3519eeb8368.png"')
+    image = Image.open(r'"https://github.com/Rohankale0604/NLP-Project/blob/main/an-introduction-to-natural-language-processing-with-python-for-seos-5f3519eeb8368.png"')
 
     # Display the image with a caption in Streamlit
     st.image(image)
