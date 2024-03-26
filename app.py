@@ -96,7 +96,7 @@ if check == 'Team':
 if check == 'ML - Modeling':
     
     # Load the pre-trained model, TF-IDF Vectorizer, and LabelEncoder
-    model = load(open(r'', 'rb'))
+    model = load(open(r'https://github.com/Rohankale0604/NLP-Project/blob/main/model.pkl', 'rb'))
     vectorizer = load(open('vectorizer.pkl', 'rb'))
     encoder = load(open(r'https://github.com/Rohankale0604/NLP-Project/blob/main/encoder.pkl', 'rb'))
     
