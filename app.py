@@ -7,7 +7,6 @@ import docx
 from PyPDF2 import PdfReader
 import docx2txt
 import pandas as pd
-import pythoncom
 from win32com import client
 
 #----------------------------------------------------------------------------------------------------
