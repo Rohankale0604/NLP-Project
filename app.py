@@ -96,9 +96,9 @@ if check == 'Team':
 if check == 'ML - Modeling':
     
     # Load the pre-trained model, TF-IDF Vectorizer, and LabelEncoder
-    model = load(open('model.pkl', 'rb'))
+    model = load(open(r'', 'rb'))
     vectorizer = load(open('vectorizer.pkl', 'rb'))
-    encoder = load(open('encoder.pkl', 'rb'))
+    encoder = load(open(r'https://github.com/Rohankale0604/NLP-Project/blob/main/encoder.pkl', 'rb'))
     
     # Function to preprocess a resume
     def preprocess_resume(file):
