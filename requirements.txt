@@ -53,5 +53,5 @@ watchdog==4.0.0
 python-docx==1.1.0
 PyPDF2==3.0.1
 docx2txt==0.8
-pywin32==306
+pypiwin32==223
 setuptools==69.2.0
